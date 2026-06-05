@@ -1,9 +1,22 @@
 # Tuberculosis-Diagnostic-Medical-Health-Care-tool
 
 # Drug Data Visualization Dashboard
-<h2>Drug Distribution Dashboard</h2>
+<h2>Tuberculosis at Different organ</h2>
 
 <img src="https://github.com/avi-nash-0211/Tuberculosis-Diagnostic-Medical-Health-Care-tool/blob/main/Different%20Organ.png" width="800">
+
+<h2>Drug Distribution Dashboard</h2>
+<img src="" width="800">
+
+
+
+
+
+
+
+
+
+https://github.com/avi-nash-0211/Tuberculosis-Diagnostic-Medical-Health-Care-tool/blob/main/Drug%20Type.png
 
 # Overview
 This project is a web-based dashboard for visualizing drug-related data from CSV files. Users can upload a dataset, select a drug category, and explore the distribution of drug types through interactive charts and tabular data.
