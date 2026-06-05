@@ -3,20 +3,18 @@
 # Drug Data Visualization Dashboard
 
 # Overview
-
 This project is a web-based dashboard for visualizing drug-related data from CSV files. Users can upload a dataset, select a drug category, and explore the distribution of drug types through interactive charts and tabular data.
-
 The application processes the uploaded CSV file on the client side and generates visual insights without requiring a backend server.
 
 # Features
 
-* Upload and parse CSV files
-* Automatic extraction of unique drug categories
-* Interactive histogram for selected drug types
-* Pie chart showing the most frequent drug categories
-* Display of the first 10 records for the selected drug type
-* Responsive user interface
-* Client-side data processing using JavaScript
+(1) Upload and parse CSV files
+(2) Automatic extraction of unique drug categories
+(3)Interactive histogram for selected drug types
+(4)Pie chart showing the most frequent drug categories
+(5)Display of the first 10 records for the selected drug type
+(6) Responsive user interface
+(7)Client-side data processing using JavaScript
 
 # Technologies Used
 
@@ -50,10 +48,10 @@ patient_id,drg_type,age
 
 # Future Improvements
 
-* Additional chart types
-* Advanced filtering options
-* Export charts as images
-* Search functionality
-* Support for larger datasets
-* Dashboard analytics and reporting
+(1)Additional chart types
+(2)Advanced filtering options
+(3)Export charts as images
+(4)Search functionality
+(5)Support for larger datasets
+(6)Dashboard analytics and reporting
 
