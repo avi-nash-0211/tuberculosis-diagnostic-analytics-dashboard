@@ -47,18 +47,20 @@ The uploaded CSV file "DRGCODES.csv" should contain a column named:
 drg_type
 
 Example:
+```csv
 patient_id,drg_type,age
 101,Antibiotic,45
 102,Analgesic,33
 103,Antibiotic,28
 104,Antiviral,50
+```
 
 # Future Improvements
-
+```text
 (1)Additional chart types
 (2)Advanced filtering options
 (3)Export charts as images
 (4)Search functionality
 (5)Support for larger datasets
 (6)Dashboard analytics and reporting
-
+```
