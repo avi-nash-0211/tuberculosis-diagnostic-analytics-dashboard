@@ -130,7 +130,39 @@ No additional installation is required.
 
 ## Dataset Information
 
-The project utilizes CSV-based tuberculosis healthcare datasets containing information related to drug types, infection locations, and patient records for visualization and analysis.
+The dashboard uses tuberculosis-related healthcare datasets stored in CSV format to perform visualization and analysis.
+
+### Datasets Used
+
+#### DRGCODES.csv
+
+Contains tuberculosis drug information used for:
+
+* Drug Type Analysis
+* Drug Distribution Visualization
+* Frequency-based Drug Analytics
+
+#### tuberculosis_records.csv
+
+Contains tuberculosis patient records used for:
+
+* Organ Infection Analysis
+* Top 10 Records Visualization
+* Healthcare Data Exploration
+
+### Dataset Format
+
+* File Format: CSV (Comma Separated Values)
+* Processing Library: PapaParse
+* Visualization Library: Chart.js
+
+### Analytics Generated
+
+* Drug Distribution Analysis
+* Organ Infection Trends
+* Top 10 Records Representation
+* Interactive Healthcare Data Insights
+
 
 ## Future Enhancements
 
