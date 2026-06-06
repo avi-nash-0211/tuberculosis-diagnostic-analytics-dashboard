@@ -1,1 +1,1 @@
-# Tuberculosis-Diagnostic-Medical-Health-Care-tool
+# Tuberculosis-Diagnostic-Medical-Visualization
