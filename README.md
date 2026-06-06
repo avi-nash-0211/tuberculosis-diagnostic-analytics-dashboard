@@ -1,5 +1,18 @@
 # Tuberculosis Diagnostic Analytics Dashboard
 
+Interactive healthcare analytics dashboard for tuberculosis data visualization and exploration using JavaScript, Chart.js, PapaParse, and CSV datasets.
+## Key Highlights
+
+* Interactive CSV Dataset Processing
+* Healthcare Data Visualization Dashboard
+* Drug Distribution Analysis using Charts
+* Organ Infection Pattern Analysis
+* Dynamic Pie and Bar Chart 
+* Top 10 Records Visualization
+* Responsive and User-Friendly Interface
+* Interactive Dropdown-Based Filtering
+* Real-Time Data Exploration
+
 ## Overview
 
 The Tuberculosis Diagnostic Analytics Dashboard is an interactive healthcare data visualization platform designed to analyze tuberculosis-related datasets. The system processes CSV-based medical records and presents meaningful insights through dynamic visualizations, enabling users to explore infection patterns, drug distribution, and patient record trends.
@@ -8,17 +21,6 @@ The Tuberculosis Diagnostic Analytics Dashboard is an interactive healthcare dat
 
 Tuberculosis datasets often contain large volumes of information that are difficult to interpret manually. This project provides an intuitive dashboard that transforms raw healthcare data into visual insights, helping users better understand disease patterns and treatment-related information.
 
-## Features
-
-* CSV File Upload and Processing
-* Drug Type Analysis
-* Organ Infection Analysis
-* Top 10 Records Visualization
-* Interactive Dropdown-Based Filtering
-* Pie Chart Visualizations
-* Bar Chart Visualizations
-* Responsive User Interface
-* Real-Time Data Processing
 
 ## Technologies Used
 
@@ -38,17 +40,79 @@ README.md
 LICENSE
 
 data/
+├── DRGCODES.csv
+└── tuberculosis_records.csv
+
 src/
+├── drug-analysis.html
+├── organ-analysis.html
+└── top10-analysis.html
+
 docs/
+└── screenshots/
+    ├── drug-analysis.png
+    ├── organ-analysis.png
+    └── top10-analysis.png
 ```
+
 
 ## System Architecture
 
-CSV Dataset
-→ Data Processing
-→ JavaScript Analysis
-→ Chart.js Visualization
-→ Interactive Dashboard
+```text
+                    +------------------+
+                    |   CSV Dataset    |
+                    | (Patient Records)|
+                    +--------+---------+
+                             |
+                             v
+                    +------------------+
+                    |  File Upload UI  |
+                    +--------+---------+
+                             |
+                             v
+                    +------------------+
+                    |   PapaParse      |
+                    | CSV Processing   |
+                    +--------+---------+
+                             |
+                             v
+                    +------------------+
+                    | JavaScript Logic |
+                    | Data Aggregation |
+                    +--------+---------+
+                             |
+             +---------------+---------------+
+             |               |               |
+             v               v               v
+
+    +---------------+ +---------------+ +---------------+
+    | Drug Analysis | | Organ Analysis| | Top 10 Records|
+    +-------+-------+ +-------+-------+ +-------+-------+
+            |                 |                 |
+            +--------+--------+--------+--------+
+                             |
+                             v
+                    +------------------+
+                    |     Chart.js     |
+                    | Visualization    |
+                    +--------+---------+
+                             |
+                             v
+                    +------------------+
+                    | Interactive UI   |
+                    | Dashboard Output |
+                    +------------------+
+```
+
+## How to Run
+
+1. Clone or download the repository.
+2. Open any of the HTML files inside the `src` folder.
+3. Upload the required CSV dataset.
+4. Explore the generated visualizations and analytics dashboard.
+
+No additional installation is required.
+
 
 ## Screenshots
 
@@ -79,6 +143,12 @@ The project utilizes CSV-based tuberculosis healthcare datasets containing infor
 
 ## Author
 
-Avinash
+**Avinash**
 
-MCA Student, Jawaharlal Nehru University (JNU)
+MCA Student | Jawaharlal Nehru University (JNU)
+
+Interested in:
+- Software Development
+- Data Analytics
+- Data Visualization
+- Healthcare Informatics
