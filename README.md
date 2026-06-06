@@ -8,7 +8,7 @@ Interactive healthcare analytics dashboard for tuberculosis data visualization a
 * Drug Distribution Analysis using Charts
 * Organ Infection Pattern Analysis
 * Dynamic Pie and Bar Chart 
-* Top 10 Records Visualization
+* Drug-wise Top 10 Records Exploration
 * Responsive and User-Friendly Interface
 * Interactive Dropdown-Based Filtering
 * Real-Time Data Exploration
